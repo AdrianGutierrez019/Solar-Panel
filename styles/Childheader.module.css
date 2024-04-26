@@ -1,0 +1,57 @@
+.constan {
+    background-color: orange;
+    margin: auto;
+}
+
+.headers{
+    display: flex;
+}
+
+.headersImag{
+    display: flex;
+    max-width: 300px;
+}
+
+.headersImag1{
+    max-width: 80px;
+    margin: 50;
+    padding: 0 20px;
+}
+
+
+.headersText{
+    display: flex;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    align-self: flex-start;
+    margin: 0 auto;
+    padding: 0 ;
+    position: relative;
+}
+
+.Submenu{
+    display: flex;
+    align-self: flex-start;
+    margin: 0 auto;
+    padding: 0 ;
+    position: relative;
+}
+
+.btn{
+    height: 50px;
+    border: none;
+    background-color: orange;
+    padding: 8px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: orangered;
+    padding: 10px 10px;
+}

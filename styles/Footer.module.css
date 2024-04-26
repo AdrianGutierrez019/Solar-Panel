@@ -1,0 +1,61 @@
+.flex{
+    display: flex;
+    background-color: #979A9A ;
+    color: black;
+}
+
+.flextime{
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.flextime1{
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.flextime2{
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: auto;
+    margin: 5px;
+    padding: 10px;
+}
+
+.flex1{
+    display: flex;
+    margin: 25px;
+}
+
+.text{
+    text-align: right;
+    margin-left: 500px;
+}
+
+.imag{
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: wheat;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #F7F9F9;
+}

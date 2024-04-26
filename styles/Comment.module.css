@@ -1,0 +1,62 @@
+.cont{
+    padding: 20px;
+    position: relative;
+    height: 400px;
+    margin: 10px;
+}
+
+.title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.flecha{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+}
+
+.cont2{
+    top: 50px;
+    text-align: center;
+    width: auto;
+    position: relative;
+    overflow-x: scroll;
+    padding: 15px;
+    width: 95%;
+}
+.item{
+    display: flex;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+}
+
+.comm{
+    display: flex;
+    width: 1200px;
+}
+
+.comm2{
+    display: flex;
+    width: 350px;
+    margin: 40px;
+}
+
+.comm3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text{
+    text-align: center;
+}
+
+.text2{
+    text-align: left;
+}

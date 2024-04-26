@@ -1,0 +1,106 @@
+.Cont01{
+    padding: 35px;
+    background-color: grey;
+    width: 1263px;
+    text-align: left;
+}
+
+.title02{
+    font-size: 36px;
+    color: white;
+}
+
+.flexi{
+    display: flex;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title01{
+    color: white;
+}
+
+.Desc01{
+    color: orange;
+    margin-left: 25px;
+}
+
+
+.proj{
+    position: relative;
+}
+
+.essup {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.encabezado {
+    font-size: 36px;
+    margin: 60;
+    padding: 30px;
+    top: 10%;
+    left: 0;
+}
+
+.item{
+    display: flex;
+
+}
+
+.item1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item2{
+    padding: 2px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.oculto{
+    display: none;
+}
+
+.Imag{
+    width: 100%;
+    position: relative;
+}
+
+.title{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.Cont02{
+    width: 900px;
+    margin-left: 15%;
+}
+
+.ContA1{
+    text-align: center;
+}

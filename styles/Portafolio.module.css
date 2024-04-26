@@ -1,0 +1,96 @@
+.Cont01{
+    padding: 35px;
+    background-color: grey;
+    width: 1413px;
+    text-align: left;
+}
+
+.title02{
+    font-size: 36px;
+    color: white;
+}
+
+.flexi{
+    display: flex;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title01{
+    color: white;
+}
+
+.Desc01{
+    color: orange;
+    margin-left: 25px;
+}
+
+
+.proj{
+    margin: 10;
+    position: relative;
+}
+
+.essup {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.encabezado {
+    font-size: 36px;
+    margin: 60;
+    padding: 30px;
+    top: 10%;
+    left: 0;
+}
+
+.item{
+    display: flex;
+    scrollbar-width: none;
+
+}
+
+.item1{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    overflow-x: scroll;
+    position: relative;
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
+    padding: 10px;
+}
+
+.item2{
+    width: 100%;
+    height: auto;
+}
+
+.oculto{
+    display: none;
+}
+
+.Imag{
+    width: 100%;
+    position: relative;
+}
+
+.title{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+

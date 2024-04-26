@@ -1,0 +1,3 @@
+{
+    "vscode-pull-requests-azure-devops.collection": "git remote add origin git@ssh.dev.azure.com:v3/icautomatizados/Solar-Panel/Solar-Panel git push -u origin --all"
+}

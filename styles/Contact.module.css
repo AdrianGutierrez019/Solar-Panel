@@ -1,0 +1,130 @@
+.Cont01{
+    padding: 35px;
+    background-color: grey;
+}
+
+.title{
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.flexi{
+    display: flex;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title01{
+    color: white;
+}
+
+.Desc01{
+    color: orange;
+    margin-left: 25px;
+}
+
+.Cont02{
+    text-align: center;
+    width: 500px;
+    margin-left: 400px;
+}
+
+.title02{
+    font-size: 48px;
+}
+
+.Desc02{
+    font-size: 18px;
+}
+
+.Cont03{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.ImLa{
+    width: 400px;
+    padding: 10px;
+}
+
+.Imp{
+    width: 385px;
+    height: 40px;
+    font-size:20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.Bton{
+    color: white;
+    height: 40px;
+    background-color: gray;
+    font-size:20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.Bton:hover{
+    background-color: orange;
+}
+
+.Cont04{
+    display: flex;
+    padding: 15px;
+    width: 300px;
+    padding: 15px;
+    margin-left: 85px;
+}
+
+.Cont05{
+    text-align: center;
+    align-items: center;
+}
+
+.Cont06{
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}
+
+.ImgA{
+    border-radius: 10px;
+    width: 80px;
+    padding: 25px;
+}
+
+.title03{
+    font-size: 40px;
+}
+
+.Desc03{
+    font-size: 18px;
+}
+
+.Cont07{
+    display: flex;
+    margin-left: 10px;
+}
+
+.Cont08{
+    margin-left: 65px;
+}
+
+.Info{
+    align-items: left;
+    text-align: center;
+}
+
+.Flex03{
+    display: flex;
+    flex-direction: column;
+}

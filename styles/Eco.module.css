@@ -1,0 +1,73 @@
+.flex{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    margin: 0 160px;
+    width: auto; /* Restar el margen de ambos lados */
+    max-width: 800px;
+}
+
+.ecoti{
+    padding: 20px;
+    width: 400px;
+}
+
+.span{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.title{
+    font-size: 36px;
+    top: 35px;
+    left: 0px;
+}
+
+.descri{
+    top: 50px;
+    left: 0px;
+    font-style: italic;
+}
+
+.twice{
+    display: flex;
+    margin: 15px;
+    width: 400px;
+}
+
+.twop{
+    justify-content: center;
+    width: 200px;
+}
+
+.twopimg {
+    max-width: 400px;
+    justify-content: center;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imag{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 100%; /* Para asegurar que la imagen no sea más grande que su contenedor */
+    max-height: 100%;
+}
+
+.subTitle{
+    font-size: 18px;
+    text-align: center;
+}
+
+.Parr{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+}

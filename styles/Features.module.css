@@ -1,0 +1,27 @@
+.cont{
+    padding: 20px;
+    margin: 0 160px;
+    width: 1000px;
+}
+
+.title{
+    font-size: 24px;
+    text-align: center;
+}
+
+.flexti{
+    display: flex;
+}
+
+.item{
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.itemim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

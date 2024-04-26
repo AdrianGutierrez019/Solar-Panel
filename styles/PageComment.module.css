@@ -1,0 +1,90 @@
+.Conta2{
+    padding: 35px;
+    background-color: grey;
+}
+
+.title001{
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.Fley{
+    display: flex
+}
+.title01{
+    color: white;
+}
+
+.Desc01{
+    color: orange;
+    margin-left: 25px;
+}
+
+.cont{
+    padding: 20px;
+    position: relative;
+    height: auto;
+}
+
+.title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cont2{
+    top: 50px;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    margin-top: 80px;
+}
+.item{
+    display: flex;
+    top: 20%;
+    left: 20%;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+.comm{
+    display: flex;
+    width: 1000px;
+    margin-right: 150px;
+    margin: 25px;
+    background-color: gainsboro;
+    padding: 40px;
+}
+
+.comm2{
+    display: flex;
+    width: auto;
+    margin: 10px;
+}
+
+.comm3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text{
+    text-align: center;
+}
+
+.text2{
+    text-align: left;
+    width: 500px;
+}
+
+.text3{
+    font-size: 48px;
+}
+
+.text4{
+    color: orange;
+}

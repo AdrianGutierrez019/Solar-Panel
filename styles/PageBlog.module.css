@@ -1,0 +1,79 @@
+.Cont01{
+    padding: 35px;
+    background-color: grey;
+}
+
+.title{
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.flexi{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title01{
+    color: white;
+}
+
+.Desc01{
+    color: orange;
+    margin-left: 25px;
+}
+
+.Cont02{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.Cont03{
+    display: flex;
+}
+
+.Cont04{
+    margin: 15px;
+    width: 200px;
+}
+
+.Btn01{
+    width: 125px;
+    height: 40px;
+    border-radius: 15px;
+    border: transparent;
+    background-color: whitesmoke;
+}
+
+.Btn01:hover{
+    background-color: black;
+}
+
+.Bton01Tex{
+    color: orange;
+}
+.Bton01Tex:hover{
+    color: white;
+}
+.Cont05{
+    padding: 5px;
+    position: relative;
+}
+
+.ImgIl{
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.Date01{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}

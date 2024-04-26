@@ -1,0 +1,65 @@
+.flexzo{
+    display: flex;
+    margin: 10px;
+    padding: 80px;
+}
+
+.item{
+    position: relative;
+    display: inline-block;
+}
+
+.item img{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+}
+.cat {
+    position: absolute; /* Asegúrate de que el elemento tenga una posición absoluta */
+    top: 0;
+    left: 410px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60px;
+    background-color: gold;
+}
+
+.Hist{
+    margin: 50px;
+    position: relative;
+}
+.essup {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.encabezado {
+    font-size: 24px;
+}
+
+.descripcion {
+    font-style: italic;
+    /* Otros estilos de descripción */
+}
+
+.carac {
+    list-style-type: disc;
+    /* Otros estilos de lista */
+}
+
+.leer {
+    background-color: blue;
+    color: white;
+    /* Otros estilos de botón */
+}
+
+.preg {
+    font-weight: bold;
+    /* Otros estilos de pregunta */
+}
+
+.phone {
+    font-size: 18px;
+    /* Otros estilos de número de teléfono */
+}

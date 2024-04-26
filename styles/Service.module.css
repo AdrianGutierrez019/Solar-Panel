@@ -1,0 +1,137 @@
+.Cont01{
+    padding: 35px;
+    background-color: grey;
+}
+
+.title{
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.fle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.flexi{
+    display: flex;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title01{
+    color: white;
+}
+
+.Desc01{
+    color: orange;
+    margin-left: 25px;
+}
+
+.Cont02{
+    text-align: center;
+    padding: 40px;
+    align-items: center;
+}
+
+.Text03{
+    font-size: 16px;
+}
+
+.Text04{
+    font-size: 42px;
+}
+
+.Text05{
+    font-size: 24px;
+}
+
+.Text06{
+    font-size: 20px;
+}
+
+.Cont03{
+    padding: 15px;
+    text-align: center;
+    width: 900px;
+    align-items: center;
+}
+
+.Cont04{
+    padding: 15px;
+}
+
+.flexi{
+    display: flex;
+}
+.boxhe{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    text-align: center;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.boxhe:hover{
+    background-color: orange;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.ImaIlu{
+    border-radius: 15px;
+}
+.Cont05{
+    background-color: grey;
+}
+
+.Cont06{
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    background-color: grey;
+    padding: 40px;
+}
+
+.Btn01{
+    width: 175px;
+    height: 40px;
+    border-radius: 15px;
+    border: transparent;
+    background-color: whitesmoke;
+}
+
+.Btn01:hover{
+    background-color: black;
+}
+
+.Text01{
+    font-size: 24px;
+}
+
+.Text02{
+    font-size: 18px;
+}
+
+.Bton01Tex{
+    color: orange;
+}
+.Bton01Tex:hover{
+    color: white;
+}
+
+.Cont07{
+    margin-left: 400px;
+}

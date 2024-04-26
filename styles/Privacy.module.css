@@ -1,0 +1,60 @@
+
+.title{
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.flexi{
+    display: flex;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title01{
+    color: white;
+}
+
+.Desc01{
+    color: orange;
+    margin-left: 25px;
+}
+
+.Cont2{
+    padding: 35px;
+    background-color: grey;
+}
+
+.title1{
+    font-size: 30px;
+    color: gray;
+}
+
+.desc{
+    font-size: 24px;
+    color: gray;
+}
+
+.SubTitle{
+    font-size: 20px;
+    color: gray;
+}
+
+.Descr{
+    font-size: 18px;
+    color: gray;
+}
+
+.Cont3{
+    width: 1100px;
+    margin-left: 125px;
+    text-align: justify;
+}
+
+.Cont4{
+    margin: 25px;
+    width: auto;
+    margin-left: 50px;
+    text-align: justify;
+}
