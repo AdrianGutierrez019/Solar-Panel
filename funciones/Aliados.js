@@ -19,7 +19,7 @@ return (
             {aliados.map((aliados) => {
                 return (
                 <ul key={aliados.id}>
-                    <img src={`${directus.url}assets/${aliados.ilus}?width=300`} alt="logo" />
+                    <img src={`${directus.url}assets/${aliados.ilus}?width=150`} alt="logo" />
                 </ul>
                 );
             })}

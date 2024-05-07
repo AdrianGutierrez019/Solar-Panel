@@ -17,28 +17,28 @@ return (
             <div className={FeatSty.itemim}>
               <img src={`${directus.url}assets/${features.Panels_installed}?width=400`} alt="" />
             </div>
-            <p>{features.num_installed}</p>
+            <p className={FeatSty.number}>{features.num_installed}</p>
             <span>Panels installed</span>
           </div>
           <div className={FeatSty.item}>
             <div className={FeatSty.itemim}>
               <img src={`${directus.url}assets/${features.Technical_Support}?width=400`} alt="" />
             </div>
-            <p>{features.num_Support}</p>
+            <p className={FeatSty.number} >{features.num_Support}</p>
             <span>Technical Support</span>
           </div>
             <div className={FeatSty.item}>
             <div className={FeatSty.itemim}>
               <img src={`${directus.url}assets/${features.Years_Experience}?width=400`} alt="" />
             </div>
-            <p>{features.num_Years}</p>
+            <p className={FeatSty.number}>{features.num_Years}</p>
           <span>Years Experience</span>
           </div>
           <div className={FeatSty.item}>
             <div className={FeatSty.itemim}>
               <img src={`${directus.url}assets/${features.Five_Star_Review}?width=300`} alt="" />
             </div>
-            <p>{features.num_Star}</p>
+            <p className={FeatSty.number}>{features.num_Star}</p>
             <span>Five Star Review</span>
           </div>
         </div>

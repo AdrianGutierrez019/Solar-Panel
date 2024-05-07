@@ -35,9 +35,6 @@ return (
                             <div className={PortaProj.text}>
                                 <p ><a href={`/Projects`} class="boton">Ver más</a></p>
                             </div>
-                        <div className={PortaProj.oculto}>
-                            <span>{project.categoria}</span>
-                        </div>
                     </div>
                 </ul>
                 );

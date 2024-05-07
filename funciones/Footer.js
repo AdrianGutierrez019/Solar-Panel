@@ -91,11 +91,7 @@ const Footer = async () => {
 
       <div className={styles.text}>
       <p >
-        &copy; 2024 Copyright Solar Light, All Rrights Reserved. With
-          Love <i></i> by
-        <a href="https://www.templatemonster.com/authors/themeslay/">
-          Themeslay
-        </a>
+        &copy; 2024 Copyright Solar Light, All Rrights Reserved.
       </p>
       </div>
       </div>

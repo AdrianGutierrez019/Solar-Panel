@@ -23,8 +23,7 @@ return (
                     <h4 className={styles.info}>{products.title}</h4>
                     </a>
                     <div>
-                    <img src={`${directus.url}assets/${products.ilus}?width=300`} alt="logo" />
-                    <div dangerouslySetInnerHTML={{ __html: products.descripcion }}></div>
+                    <img src={`${directus.url}assets/${products.ilus}?width=350`} alt="logo" />
                     <p className={styles.oculto}>$ {products.price}</p>
                     </div>
                     <button className={styles.oculto}>read more</button>

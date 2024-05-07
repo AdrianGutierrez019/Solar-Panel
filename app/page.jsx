@@ -65,24 +65,6 @@ export default async function HomePage() {
       <BService/>
     </div>
 
-    <div className={styles.container}>
-      <Comment/>
-    </div>
-
-    <div className={styles.cont}>
-      <div >
-          <p className={styles.text01}>Best Team</p>
-          <h2 className={styles.text02}>Our Professional Team</h2>
-      </div>
-      <div >
-        <Team/>
-      </div>
-    </div>
-
-    <div className={styles.container}>
-      <Blog/>
-    </div>
-
     <div className={styles.container2}>
         <div >
         <Video/>
