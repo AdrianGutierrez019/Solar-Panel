@@ -18,13 +18,13 @@ return (
                     return (
                     <ul className={CommeStyle.comm} key={comment.id}>
                         <div>
-                            <img src={`${directus.url}assets/${comment.autor.user}?width=300`} alt="" />
+                        <img src={`${directus.url}assets/${comment.commentautor_ilust}?width=300`} alt="" />
                         </div>
                         <div className={CommeStyle.comm3}>
                             <div className={CommeStyle.comm2}>
                                 <img src={`${directus.url}assets/${icon.commi}?width=300`} alt="" />
-                                <p className={CommeStyle.text}>{comment.autor.name},{comment.autor.position}<br/>
-                                {comment.autor.company}</p>
+                                <p className={CommeStyle.text}>{comment.commentautor_name},{comment.commentautor_position}<br/>
+                                {comment.autor_company}</p>
                             </div>
                             <div className={CommeStyle.text2} dangerouslySetInnerHTML={{ __html: comment.comments }}></div>
                         </div>

@@ -40,10 +40,12 @@
 
 .Btn01{
     width: 125px;
-    height: 40px;
+    height: 30px;
     border-radius: 15px;
     border: transparent;
     background-color: whitesmoke;
+    text-align: center;
+    align-items: center;
 }
 
 .Btn01:hover{
@@ -52,6 +54,9 @@
 
 .Bton01Tex{
     color: orange;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
 }
 .Bton01Tex:hover{
     color: white;

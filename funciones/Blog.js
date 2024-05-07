@@ -10,7 +10,7 @@ return (
             <ul className={BlogStyle.Cont02}>
                 {blog.map((blog) => {
                 return (
-                    <ul className={BlogStyle.Cont03} key={blog.id}>
+                    <li className={BlogStyle.Cont03} key={blog.id}>
                         <div className={BlogStyle.Cont05}>
                             <img className={BlogStyle.ImgIl} src={`${directus.url}assets/${blog.ilus}?width=350`} alt="blog" />
                             <span className={BlogStyle.Date01}>{blog.date}</span>
@@ -21,12 +21,12 @@ return (
                             </div>
                             <div dangerouslySetInnerHTML={{ __html: blog.descripcion }}></div>
                             <div>
-                                <p>{blog.autor.name}</p>
+                                <p>{blog.autor_name}</p>
                             </div>
-                        <button className={BlogStyle.Btn01}> <a href={`/Blog/${blog.slug}`}
-                        className={BlogStyle.Bton01Tex} >Read more</a></button>
+                        <p className={BlogStyle.Btn01}> <a href={`/Blog/`}
+                        className={BlogStyle.Bton01Tex} >Read more</a></p>
                         </div>
-                    </ul>
+                    </li>
                 );
                 })}
             </ul>

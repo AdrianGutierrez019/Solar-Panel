@@ -16,7 +16,7 @@ return (
         <div className={BSerStyle.text}>
             <p >Best Services</p>
             <h4 className={BSerStyle.title}>{best_service.title}</h4>
-            <div dangerouslySetInnerHTML={{ __html: best_service.description }}></div>
+            <p >{best_service.description}</p>
         </div>
         <div className={BSerStyle.serv}>
             <ul className={BSerStyle.Flexi}>

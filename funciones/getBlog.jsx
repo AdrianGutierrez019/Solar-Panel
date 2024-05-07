@@ -5,7 +5,7 @@ import { readItems } from '@directus/sdk';
 export function getBlog() {
   return directus.request(
     readItems('blog', {
-      fields: ['slug', 'title', 'descripcion', 'descripcion01', 'ilus', 'date', { autor: ['name', 'company', 'position'] }],
+      fields: ['slug', 'title', 'descripcion', 'descripcion01', 'ilus', 'date', 'autor_name'],
     })
   );
 }

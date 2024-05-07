@@ -1,20 +1,21 @@
-# Usar una imagen base de Node
-FROM node:18
+FROM node:18-alpine
 
-# Establecer el directorio de trabajo
 WORKDIR /app
 
-# Copiar archivos del proyecto
-COPY . .
 
-# Instalar dependencias
+COPY package.json package-lock.json ./
+
+
 RUN npm install
 
-# Construir la aplicación Next.js
+
+COPY . .
+
+
 RUN npm run build
 
-# Exponer el puerto (el mismo que en docker-compose)
+
 EXPOSE 3000
 
-# Comando para iniciar la aplicación
-CMD ["npm", "start"]
+
+CMD ["npx", "serve@latest", "out"]

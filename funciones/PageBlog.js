@@ -21,7 +21,7 @@ return (
                             </div>
                             <div dangerouslySetInnerHTML={{ __html: blog.descripcion }}></div>
                             <div>
-                                <p>{blog.autor.name}</p>
+                                <p>{blog.autor_name}</p>
                             </div>
                         <button className={BlogStyle.Btn01}> <a href={`/Blog/${blog.slug}`}
                         className={BlogStyle.Bton01Tex} >Read more</a></button>

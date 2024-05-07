@@ -14,7 +14,7 @@ return (
             <div >
                 <span className={EcoStyle.span}>Eco Friendly</span>
                 <h4 className={EcoStyle.title} >{eco_friendly.title}</h4>
-                <div className={EcoStyle.descri} dangerouslySetInnerHTML={{ __html: eco_friendly.description }}></div>
+                <div className={EcoStyle.descri} >{ eco_friendly.description }</div>
             </div>
             <div className={EcoStyle.twice}>
                 <div className={EcoStyle.twop}>

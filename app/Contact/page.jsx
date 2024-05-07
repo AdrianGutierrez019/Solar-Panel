@@ -43,7 +43,7 @@ export default async function HomePage() {
         </div>
         <div className={ContStyle.Cont03}>
           <div className={ContStyle.Cont04}>
-              <img className={ContStyle.ImgA} src={`${directus.url}assets/${icon.write}?width=50`} alt="write" />
+              <img className={ContStyle.ImgA} src={`${directus.url}assets/${icon.Write}?width=50`} alt="write" />
                 <div className={ContStyle.Cont06}>
                   <h4 >Write to us</h4>
                   <p>{head.email}</p>

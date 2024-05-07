@@ -5,7 +5,7 @@ import { readItems } from '@directus/sdk';
 export function getComment() {
   return directus.request(
     readItems('comment', {
-      fields: ['id', 'comments', { autor: ['name', 'company', 'position', 'user'] }],
+      fields: ['id', 'comments', 'commentautor_name','commentautor_position','commentautor_company','commentautor_ilust' ],
     })
   );
 }

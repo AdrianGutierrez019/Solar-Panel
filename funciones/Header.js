@@ -51,7 +51,7 @@ const Header = async () => {
                 return (
                   <ul key={menu.id}>
                     <div>
-                      <button className={styles.btn}><a href={`${menu.slug}`}>{menu.Descripcion}</a></button>
+                      <button className={styles.btn}><a href={`${menu.url}`}>{menu.Descripcion}</a></button>
                     </div>
                   </ul>
                 );

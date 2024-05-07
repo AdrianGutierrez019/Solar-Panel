@@ -33,8 +33,7 @@ return (
                                 {project.Title}
                             </h2>
                             <div className={PortaProj.text}>
-                            <div dangerouslySetInnerHTML={{ __html: project.limdescr }}></div>
-                                <p ><a href={`/Projects/${project.slug}`} class="boton">Ver más</a></p>
+                                <p ><a href={`/Projects`} class="boton">Ver más</a></p>
                             </div>
                         <div className={PortaProj.oculto}>
                             <span>{project.categoria}</span>

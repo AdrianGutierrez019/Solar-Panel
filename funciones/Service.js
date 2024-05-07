@@ -16,7 +16,7 @@ return (
             <div className={ServStyle.Cont03}>
                 <div className={ServStyle.Cont07}>
                     <h4 className={ServStyle.Text05}>{servicedt.sub_title}</h4>
-                    <div dangerouslySetInnerHTML={{ __html: servicedt.description }}></div>
+                    <div >{ servicedt.description }</div>
                 </div>
                 <div className={ServStyle.Cont04}>
                     <ul className={ServStyle.fle}>

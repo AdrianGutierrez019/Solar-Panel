@@ -12,9 +12,10 @@ import Comment from '@/funciones/Comment'
 import Blog from '@/funciones/Blog'
 import Video from '@/funciones/Video'
 import styles from '@/styles/index.module.css';
+import { gethead } from '@/funciones/gethead';
 
 export default async function HomePage() {
-
+  const head =await gethead('head');
 	return (
     <div>
       <Header/>
@@ -23,12 +24,11 @@ export default async function HomePage() {
             <div >
               <div className={styles.container3} >
                   <div >
-                  <h2 className={styles.title}>Solar Light for LifeLong</h2>
-                  <p className={styles.Subtitle}>Trusted Products Solution</p>
+                  <h2 className={styles.title}>{head.Title01}</h2>
+                  <p className={styles.Subtitle}>{head.SubTitle01}</p>
                   <div >
                       <div className={styles.par}>
-                      <p className={styles.par}>With our product, partner with a team that has the experience and<br/>
-                          drive to help you become a market leader.</p>
+                      <div  className={styles.par} dangerouslySetInnerHTML={{ __html: head.desc01 }}></div>
                       <button className={styles.btn}> Learn more</button>
                       </div>
             </div>
