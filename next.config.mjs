@@ -1,6 +1,10 @@
  /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    output: {
+        dir: "out",
+        publicPath: "/assets/",
+        staticFolder: "static",
+      },
     images: {
         unoptimized: true,
     },
