@@ -2,6 +2,7 @@ import React from "react";
 import {directus} from "@/lib/directus";
 import { getBlog } from '@/funciones/getBlog';
 import BlogStyle from '@/styles/Blog.module.css'
+import Image from 'next/image';
 
 const Blog = async () => {
     const blog =await getBlog('blog');
@@ -12,7 +13,13 @@ return (
                 return (
                     <li className={BlogStyle.Cont03} key={blog.id}>
                         <div className={BlogStyle.Cont05}>
-                            <img className={BlogStyle.ImgIl} src={`${directus.url}assets/${blog.ilus}?width=350`} alt="blog" />
+                            <Image
+                                className={BlogStyle.ImgIl}
+                                src={`${directus.url}assets/${blog.ilus}?width=350`}
+                                alt="blog"
+                                width={350}
+                                height={350}
+                            />
                             <span className={BlogStyle.Date01}>{blog.date}</span>
                         </div>
                         <div className={BlogStyle.Cont04}>

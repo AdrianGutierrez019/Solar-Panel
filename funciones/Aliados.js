@@ -2,6 +2,7 @@ import React from "react";
 import {directus} from "@/lib/directus";
 import { getPartner } from '@/funciones/getPartner';
 import AliadosP from '../styles/Aliados.module.css';
+import Image from 'next/image';
 
 const Aliados = async () => {
     const aliados =await getPartner('aliados');
@@ -18,9 +19,14 @@ return (
         <ul className={AliadosP.item}>
             {aliados.map((aliados) => {
                 return (
-                <ul key={aliados.id}>
-                    <img src={`${directus.url}assets/${aliados.ilus}?width=150`} alt="logo" />
-                </ul>
+                <list key={aliados.id}>
+                    <Image
+                        src={`${directus.url}assets/${aliados.ilus}?width=150`}
+                        alt="logo"
+                        width={150}
+                        height={150}
+                    />
+                </list>
                 );
             })}
         </ul>

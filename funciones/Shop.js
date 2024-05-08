@@ -1,6 +1,7 @@
 import React from "react";
 import {directus} from "@/lib/directus";
 import { getProduct } from '@/funciones/getProduct';
+import Image from 'next/image';
 import styles from '../styles/Shop.module.css'
 
 const Shop = async () => {
@@ -18,16 +19,21 @@ return (
         <ul className={styles.Flexkey}>
             {products.map((products) => {
                 return (
-                <ul className={styles.items} key={products.id}>
+                <list className={styles.items} key={products.id}>
                     <a href={`/Home`}>
                     <h4 className={styles.info}>{products.title}</h4>
                     </a>
                     <div>
-                    <img src={`${directus.url}assets/${products.ilus}?width=350`} alt="logo" />
+                    <Image
+                    src={`${directus.url}assets/${products.ilus}?width=350`}
+                    alt="logo"
+                    width={350}
+                    height={350}
+                    />
                     <p className={styles.oculto}>$ {products.price}</p>
                     </div>
                     <button className={styles.oculto}>read more</button>
-                </ul>
+                </list>
                 );
             })}
             </ul>

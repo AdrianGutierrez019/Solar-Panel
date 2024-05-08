@@ -1,6 +1,7 @@
 import React from "react";
 import {directus} from "@/lib/directus";
 import { getEco } from '@/funciones/getEco';
+import Image from 'next/image';
 import EcoStyle from '@/styles/Eco.module.css'
 
 const Eco = async () => {
@@ -19,14 +20,24 @@ return (
             <div className={EcoStyle.twice}>
                 <div className={EcoStyle.twop}>
                     <div className={EcoStyle.twopimg}>
-                        <img  src={`${directus.url}assets/${eco_friendly.electricity}?width=200 x 200`} alt="" />
+                    <Image
+                        src={`${directus.url}assets/${eco_friendly.electricity}?width=200&height=200`}
+                        alt=""
+                        width={200}
+                        height={200}
+                        />
                     </div>
                     <p className={EcoStyle.subTitle}>{eco_friendly.electricity_title}</p>
                     <p className={EcoStyle.Parr}>{eco_friendly.electricity_description}</p>
                 </div>
                 <div className={EcoStyle.twop}>
                     <div className={EcoStyle.twopimg}>
-                        <img src={`${directus.url}assets/${eco_friendly.energy}?width=200 x 200`} alt="" />
+                        <Image
+                        src={`${directus.url}assets/${eco_friendly.energy}?width=200&height=200`}
+                        alt=""
+                        width={200}
+                        height={200}
+                        />
                     </div>
                     <p className={EcoStyle.subTitle}>{eco_friendly.title_energy}</p>
                     <p className={EcoStyle.Parr}>{eco_friendly.description_energy}</p>
@@ -34,7 +45,12 @@ return (
             </div>
         </div>
             <div className={EcoStyle.imag}>
-            <img src={`${directus.url}assets/${eco_friendly.ilust}?width=400`} alt="logo" />
+                <Image
+                src={`${directus.url}assets/${eco_friendly.ilust}?width=400`}
+                alt="logo"
+                width={400}
+                height={400}
+                />
             </div>
     </div>
     </>

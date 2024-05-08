@@ -11,10 +11,10 @@ export default async function ProyectPage() {
       <section>
           <div className={ProStyle.Cont01}>
             <h2 className={ProStyle.title02}>Our Projects</h2>
-            <ul className={ProStyle.flexi}>
+            <list className={ProStyle.flexi}>
               <a className={ProStyle.title01} href="Home">Home</a>
               <li className={ProStyle.Desc01} >Projects</li>
-            </ul>
+            </list>
         </div>
         <div>
           <Portafolio/>

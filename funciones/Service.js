@@ -2,6 +2,7 @@ import React from "react";
 import {directus} from "@/lib/directus";
 import { getServicedt } from '@/funciones/getServicedt';
 import { getService } from '@/funciones/getService';
+import Image from 'next/image';
 import ServStyle from '@/styles/Service.module.css'
 
 const Service = async () => {
@@ -19,21 +20,27 @@ return (
                     <div >{ servicedt.description }</div>
                 </div>
                 <div className={ServStyle.Cont04}>
-                    <ul className={ServStyle.fle}>
+                    <list className={ServStyle.fle}>
                         {service.map((service) => {
                         return (
-                            <ul className={ServStyle.boxhe} key={service.id}>
+                            <list className={ServStyle.boxhe} key={service.id}>
                                 <div>
-                                    <img className={ServStyle.ImaIlu} src={`${directus.url}assets/${service.ilus}?width=200`} alt="contrlogo" />
+                                <Image
+                                className={ServStyle.ImaIlu}
+                                src={`${directus.url}assets/${service.ilus}?width=200`}
+                                alt="contrlogo"
+                                width={200}
+                                height={200}
+                                />
                                 </div>
                                 <div>
                                     <h4>{service.title}</h4>
                                 </div>
                                 <div dangerouslySetInnerHTML={{ __html: service.descripcion }}></div>
-                            </ul>
+                            </list>
                         );
                         })}
-                    </ul>
+                    </list>
                 </div>
         </div>
     </>

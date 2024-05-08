@@ -4,6 +4,7 @@ import { getIcon } from '@/funciones/getIcon';
 import Header from '@/funciones/Header'
 import Footer from '@/funciones/Footer'
 import Formulario from '@/funciones/Formulario'
+import Image from 'next/image';
 import ContStyle from '@/styles/Contact.module.css'
 import MapComponent from '@/funciones/maps';
 
@@ -20,10 +21,10 @@ export default async function HomePage() {
 
       <div className={ContStyle.Cont01}>
         <h2 className={ContStyle.title}>Contact Us</h2>
-          <ul className={ContStyle.flexi}>
+          <list className={ContStyle.flexi}>
             <a className={ContStyle.title01} href="Home">Home</a>
             <li className={ContStyle.Desc01}>Contact</li>
-          </ul>
+          </list>
       </div>
 
       <div className={ContStyle.Cont02}>
@@ -43,21 +44,39 @@ export default async function HomePage() {
         </div>
         <div className={ContStyle.Cont03}>
           <div className={ContStyle.Cont04}>
-              <img className={ContStyle.ImgA} src={`${directus.url}assets/${icon.Write}?width=50`} alt="write" />
+          <Image
+            className={ContStyle.ImgA}
+            src={`${directus.url}assets/${icon.Write}?width=50`}
+            alt="write"
+            width={50}
+            height={50}
+          />
                 <div className={ContStyle.Cont06}>
                   <h4 >Write to us</h4>
                   <p>{head.email}</p>
                 </div>
           </div>
           <div className={ContStyle.Cont04}>
-              <img className={ContStyle.ImgA} src={`${directus.url}assets/${icon.Customer}?width=50`} alt="icon" />
+          <Image
+            className={ContStyle.ImgA}
+            src={`${directus.url}assets/${icon.Customer}?width=50`}
+            alt="icon"
+            width={50}
+            height={50}
+          />
                 <div className={ContStyle.Cont06}>
                   <h4>Customer Care</h4>
                   <p>{head.numero}</p>
                 </div>
           </div>
           <div className={ContStyle.Cont04}>
-                <img className={ContStyle.ImgA} src={`${directus.url}assets/${icon.Office}?width=50`} alt="icon" />
+          <Image
+            className={ContStyle.ImgA}
+            src={`${directus.url}assets/${icon.Office}?width=50`}
+            alt="icon"
+            width={50}
+            height={50}
+          />
                   <div className={ContStyle.Cont06}>
                     <h4>Office Hours</h4>
                     <p>{head.Hours}</p>

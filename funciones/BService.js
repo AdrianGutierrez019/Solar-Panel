@@ -4,6 +4,7 @@ import { getService } from '@/funciones/getService';
 import { getBest } from '@/funciones/getBest';
 import { getBestS } from '@/funciones/getBestS';
 import BSerStyle from '../styles/BService.module.css';
+import Image from 'next/image';
 
 const BService = async () => {
     const service =await getService('service');
@@ -19,17 +20,24 @@ return (
             <p >{best_service.description}</p>
         </div>
         <div className={BSerStyle.serv}>
-            <ul className={BSerStyle.Flexi}>
+            <list className={BSerStyle.Flexi}>
                 {BestService.map((BestService) => {
                     return (
-                    <ul key={BestService.id}>
+                    <list key={BestService.id}>
                         <div>
-                        <a href={`/Service`}><img src={`${directus.url}assets/${BestService.services.ilus}?width=400`} alt="logo" /></a>
+                        <a href={`/Service`}>
+                        <Image
+                            src={`${directus.url}assets/${BestService.services.ilus}?width=400`}
+                            alt="logo"
+                            width={400}
+                            height={400}
+                        />
+                        </a>
                         </div>
-                    </ul>
+                    </list>
                     );
                 })}
-            </ul>
+            </list>
         </div>
     </div>
     </>

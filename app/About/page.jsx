@@ -15,10 +15,10 @@ export default async function HomePage() {
           <Header/>
             <div className={styles.Cont01}>
                 <h2 className={styles.title02}>About Solar Light</h2>
-                <ul className={styles.flexi}>
+                <list className={styles.flexi}>
                   <a className={styles.title03} href="Home"> Home </a>
                   <li className={styles.Desc03} >About</li>
-                </ul>
+                </list>
             </div>
 
       <History/>

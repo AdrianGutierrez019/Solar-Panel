@@ -7,10 +7,10 @@ const PPrivacy = async () => {
         <div >
             <div className={PriStyle.Cont2}>
                 <h2 className={PriStyle.title}>Privacy Policy</h2>
-                    <ul className={PriStyle.flexi}>
+                    <list className={PriStyle.flexi}>
                         <a className={PriStyle.title01} href="Home">Home</a>
                         <li className={PriStyle.Desc01}>Privacy</li>
-                    </ul>
+                    </list>
             </div>
             <div className={PriStyle.Cont3}>
                     <h2 className={PriStyle.title1}>{Privacy.Title}</h2>

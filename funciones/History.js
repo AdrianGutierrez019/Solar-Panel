@@ -2,6 +2,7 @@ import React from "react";
 import {directus} from "@/lib/directus";
 import { getHistory } from '@/funciones/getHistory';
 import { gethead } from '@/funciones/gethead';
+import Image from 'next/image';
 import styles from '../styles/History.module.css';
 
 const History = async () => {
@@ -13,7 +14,12 @@ return (
     <>
         <div className={styles.flexzo}>
         <div className={styles.item} >
-        <img src={`${directus.url}assets/${history.ilus}?width=300`} alt="logo"/>
+        <Image
+            src={`${directus.url}assets/${history.ilus}?width=300`}
+            alt="logo"
+            width={300}
+            height={300}
+            />
         <p className={styles.cat}>12+ Years of Experience</p>
         </div>
         <div className={styles.Hist}>

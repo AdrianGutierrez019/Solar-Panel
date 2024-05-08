@@ -2,6 +2,7 @@ import React from "react";
 import {directus} from "@/lib/directus";
 import { getComment } from '@/funciones/getComment';
 import { getIcon } from '@/funciones/getIcon';
+import Image from 'next/image';
 import CommeStyle from '@/styles/PageComment.module.css';
 
 const Comment = async () => {
@@ -19,11 +20,21 @@ return (
                     return (
                     <li className={CommeStyle.comm} key={comment.id}>
                         <div>
-                            <img src={`${directus.url}assets/${comment.commentautor_ilust}?width=300`} alt="" />
+                        <Image
+                        src={`${directus.url}assets/${comment.commentautor_ilust}?width=300`}
+                        alt=""
+                        width={300}
+                        height={300}
+                        />
                         </div>
                         <div className={CommeStyle.comm3}>
                             <div className={CommeStyle.comm2}>
-                                <img src={`${directus.url}assets/${icon.commi}?width=300`} alt="" />
+                            <Image
+                            src={`${directus.url}assets/${icon.commi}?width=300`}
+                            alt=""
+                            width={300}
+                            height={300}
+                            />
                                 <p className={CommeStyle.text}>{comment.commentautor_name},{comment.commentautor_position}<br/>
                                 {comment.autor_company}</p>
                             </div>

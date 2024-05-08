@@ -13,6 +13,7 @@ import Blog from '@/funciones/Blog'
 import Video from '@/funciones/Video'
 import styles from '@/styles/index.module.css';
 import { gethead } from '@/funciones/gethead';
+import SliderHome from '@/funciones/HomeSliders'
 
 export default async function HomePage() {
   const head =await gethead('head');
@@ -36,6 +37,9 @@ export default async function HomePage() {
             </div>
         </div>
         </div>
+    <div>
+<SliderHome/>
+    </div>
 
     <div className={styles.container2}>
     <Shop/>

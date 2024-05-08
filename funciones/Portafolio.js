@@ -1,6 +1,7 @@
 import React from "react";
 import {directus} from "@/lib/directus";
 import { getProjec } from '@/funciones/getProjec';
+import Image from 'next/image';
 import PortaProj from '../styles/Portafolio.module.css';
 
 const Portafolio = async () => {
@@ -24,10 +25,15 @@ return (
             <ul className={PortaProj.item1}>
                 {project.map((project) => {
                 return (
-                <ul className={PortaProj.item2} key={project.id}>
+                <list className={PortaProj.item2} key={project.id}>
                     <div className={PortaProj.proj} >
                         <div className={PortaProj.Imag}>
-                            <img src={`${directus.url}assets/${project.ilus}?width=300`} alt="logo" />
+                        <Image
+                        src={`${directus.url}assets/${project.ilus}?width=300`}
+                        alt="logo"
+                        width={300}
+                        height={300}
+                        />
                         </div>
                             <h2 className={PortaProj.title}>
                                 {project.Title}
@@ -36,7 +42,7 @@ return (
                                 <p ><a href={`/Projects`} class="boton">Ver más</a></p>
                             </div>
                     </div>
-                </ul>
+                </list>
                 );
             })}
             </ul>
